@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -18,6 +19,7 @@ public class AbstractTest {
 	protected WebDriver driver;
 	
 	@BeforeTest
+	//@Parameters({"browser"})
 	public void setDriver() throws MalformedURLException {
 		if(Boolean.getBoolean("selenium.grid.enabled")) {
 			this.driver = getRemotedDriver();
@@ -30,6 +32,7 @@ public class AbstractTest {
 		
 		Capabilities capabilities;
 		if(System.getProperty("browser").equalsIgnoreCase("chrome")) {
+		//if(browser.equalsIgnoreCase("chrome")) {
 			capabilities = new ChromeOptions();
 		} else {
 			capabilities = new FirefoxOptions();
