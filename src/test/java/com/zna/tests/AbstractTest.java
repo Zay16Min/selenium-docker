@@ -34,7 +34,7 @@ public class AbstractTest {
 		} else {
 			capabilities = new FirefoxOptions();
 		}
-		return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+		return new RemoteWebDriver(new URL("http://localhost:4444/"), capabilities);
 	}
 	
 	private WebDriver getLocalDriver() {

@@ -1,24 +1,56 @@
-version: "3"
+version: "3.7"
 services:
-  hub:
-    image: seleniarm/hub:4.10
-    ports:
-    - 4444:4444
   chrome:
-    image: seleniarm/node-chromium:4.10
-    shm_size: '2g'
+    image: seleniarm/node-chromium:latest
+    shm_size: 2gb
     depends_on:
-    - hub
+      - selenium-hub
     environment:
-    - SE_EVENT_BUS_HOST=hub
-    - SE_EVENT_BUS_PUBLISH_PORT=4442
-    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      
   firefox:
-    image: seleniarm/node-firefox:4.10
-    shm_size: '2g'
+    image: seleniarm/node-firefox:latest
+    shm_size: 2gb
     depends_on:
-    - hub
+      - selenium-hub
     environment:
-    - SE_EVENT_BUS_HOST=hub
-    - SE_EVENT_BUS_PUBLISH_PORT=4442
-    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      
+  selenium-hub:
+    image: seleniarm/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"
+#version: "3"
+#services:
+#  hub:
+#    image: seleniarm/hub
+#    ports:
+#    - 4444:4444
+#  chrome:
+#    image: seleniarm/node-chromium
+#    shm_size: '2g'
+#    depends_on:
+#    - hub
+#    environment:
+#    - SE_EVENT_BUS_HOST=hub
+#    - SE_EVENT_BUS_PUBLISH_PORT=4442
+#    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
+#  firefox:
+#    image: seleniarm/node-firefox
+#    shm_size: '2g'
+#    depends_on:
+#    - hub
+#    environment:
+#    - SE_EVENT_BUS_HOST=hub
+#    - SE_EVENT_BUS_PUBLISH_PORT=4442
+#    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
+#
+#$ docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-chromium:latest
+#$ docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-firefox:latest
