@@ -9,6 +9,8 @@ import com.zna.pages.vendorportal.DashBoardPage;
 import com.zna.pages.vendorportal.LoginPage;
 import com.zna.tests.AbstractTest;
 import com.zna.tests.vendorportal.model.VendorPortalTestData;
+import com.zna.util.Config;
+import com.zna.util.Constants;
 import com.zna.util.JsonUtil;
 public class VendorPortalTest extends AbstractTest {
 
@@ -27,7 +29,7 @@ public class VendorPortalTest extends AbstractTest {
 	@Test
 	public void loginTest() {
 		loginPage = new LoginPage(driver);
-		loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
+		loginPage.goTo(Config.get(Constants.VENDOR_PROTAL_URL));
 		Assert.assertTrue(loginPage.isAt());
 		loginPage.login(testData.username(), testData.password());
 	}

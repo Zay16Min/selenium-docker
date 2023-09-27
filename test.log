@@ -1,0 +1,359 @@
+194  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/flight-reservation.xml
+
+1347 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+11505 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695470984861
+11505 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+12054 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+19626 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695470993272
+19627 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+19964 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+26343 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695470999943
+26343 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+26700 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+34732 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695471008088
+34732 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+188  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+2826 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+2826 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+2826 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+102  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+96   [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+98   [main] INFO  com.zna.util.Config -- Test Properties
+98   [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+98   [main] INFO  com.zna.util.Config -- browser=firefox
+98   [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+98   [main] INFO  com.zna.util.Config -- selenium.grid.enabled=false
+98   [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+98   [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+114  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+116  [main] INFO  com.zna.util.Config -- Test Properties
+117  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+117  [main] INFO  com.zna.util.Config -- browser=firefox
+117  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+117  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=false
+117  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+117  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+201  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+212  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+212  [main] INFO  com.zna.util.Config -- Test Properties
+212  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+212  [main] INFO  com.zna.util.Config -- browser=firefox
+212  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+212  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+212  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+212  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+221  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+221  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+221  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+199  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+207  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+208  [main] INFO  com.zna.util.Config -- Test Properties
+208  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+208  [main] INFO  com.zna.util.Config -- browser=firefox
+208  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+208  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+208  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+208  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+217  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+217  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+217  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+2531 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+2531 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+2531 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+244  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/flight-reservation.xml
+
+254  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+255  [main] INFO  com.zna.util.Config -- Test Properties
+255  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+255  [main] INFO  com.zna.util.Config -- browser=firefox
+255  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+255  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+255  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+255  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+261  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1606 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+4146 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+5055 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+7624 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+8528 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+11122 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+12154 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+190  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+199  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+199  [main] INFO  com.zna.util.Config -- Test Properties
+200  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+200  [main] INFO  com.zna.util.Config -- browser=firefox
+200  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+200  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+200  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+200  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+208  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+208  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+209  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+2015 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+2015 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+2015 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+212  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+222  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+222  [main] INFO  com.zna.util.Config -- Test Properties
+222  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+222  [main] INFO  com.zna.util.Config -- browser=firefox
+222  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+222  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+222  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+222  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+232  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+232  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+232  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+2085 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+2085 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+2092 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+4232 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+4242 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+4242 [main] INFO  com.zna.util.Config -- Test Properties
+4242 [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+4242 [main] INFO  com.zna.util.Config -- browser=firefox
+4242 [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+4242 [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+4243 [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+4243 [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+4251 [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+4251 [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+4251 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+5978 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+6044 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+8166 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+8677 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+10647 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+13497 [TestNG-tests-3] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0
+211  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/flight-reservation.xml
+
+220  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+220  [main] INFO  com.zna.util.Config -- Test Properties
+220  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+220  [main] INFO  com.zna.util.Config -- browser=firefox
+220  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+220  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+220  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+220  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+227  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1751 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+10244 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695525932159
+10245 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+10862 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+11818 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+19103 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695525941125
+19104 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+19531 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+20630 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+28468 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695525950289
+28468 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+28893 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+29861 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+36797 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695525958970
+36797 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+219  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/flight-reservation.xml
+
+227  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+227  [main] INFO  com.zna.util.Config -- Test Properties
+227  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+228  [main] INFO  com.zna.util.Config -- browser=chrome
+228  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+228  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+228  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+228  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+232  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1471 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+9976 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695526015502
+9977 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+10112 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+10382 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+17458 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695526023120
+17458 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+17566 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+17847 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+24170 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695526029957
+24170 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+24281 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+24542 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+31374 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695526036943
+31375 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+212  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+221  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+222  [main] INFO  com.zna.util.Config -- Test Properties
+222  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+222  [main] INFO  com.zna.util.Config -- browser=chrome
+222  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+222  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+222  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+222  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+231  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+231  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+231  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1013 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+1013 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+1013 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+4849 [TestNG-tests-3] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0
+6040 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+6051 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+209  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/zarniaung/GitProjects/test/selenium-docker-udemy/src/test/resources/test-suites/vendor-portal.xml
+
+218  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+218  [main] INFO  com.zna.util.Config -- Test Properties
+218  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+218  [main] INFO  com.zna.util.Config -- browser=chrome
+218  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+218  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+218  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+218  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+225  [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+225  [TestNG-tests-3] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+225  [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1293 [TestNG-tests-3] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+1293 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+1293 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+8036 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+8036 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+8036 [TestNG-tests-3] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0
+255  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+257  [main] INFO  com.zna.util.Config -- Test Properties
+258  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+258  [main] INFO  com.zna.util.Config -- browser=firefox
+258  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+258  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+258  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+258  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+262  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+2050 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+10397 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695529939687
+10397 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+10955 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+11897 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+19363 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695529948705
+19364 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+19785 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+20706 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+29399 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695529958567
+29400 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+29817 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+30824 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+38432 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695529967839
+38433 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+38849 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+38850 [main] INFO  com.zna.util.Config -- Test Properties
+38850 [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+38850 [main] INFO  com.zna.util.Config -- browser=firefox
+38850 [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+38850 [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+38851 [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+38851 [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+38865 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+38865 [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+39820 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+39849 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+42147 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+42687 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+43450 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+44440 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+47308 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0
+247  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+249  [main] INFO  com.zna.util.Config -- Test Properties
+249  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+249  [main] INFO  com.zna.util.Config -- browser=chrome
+249  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+249  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+249  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+250  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+254  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1068 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+6721 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695530730008
+6722 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+6949 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+7264 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+13738 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695530736772
+13739 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+13858 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+14111 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+19967 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695530743453
+19967 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+20082 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+20347 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+26622 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695530750068
+26624 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+26740 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+26743 [main] INFO  com.zna.util.Config -- Test Properties
+26744 [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+26744 [main] INFO  com.zna.util.Config -- browser=chrome
+26744 [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+26744 [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+26744 [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+26744 [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+26752 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+26752 [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+27034 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+27034 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+29522 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+30329 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+31577 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+31843 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+36236 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0
+254  [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+256  [main] INFO  com.zna.util.Config -- Test Properties
+256  [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+256  [main] INFO  com.zna.util.Config -- browser=chrome
+256  [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+256  [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+256  [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+256  [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+261  [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+1065 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-1.json
+9372 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695532725625
+9373 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $584 USD
+9702 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+10009 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-2.json
+17465 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695532734061
+17465 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1169 USD
+17573 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+17840 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-3.json
+24165 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695532740475
+24165 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $1753 USD
+24245 [main] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+24495 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/flight-reservation/passenger-4.json
+31388 [main] INFO  c.z.p.f.FlightConfirmationPage -- Flight confirmation# : 2023-9-1695532747901
+31390 [main] INFO  c.z.p.f.FlightConfirmationPage -- Total price : $2338 USD
+31467 [main] INFO  com.zna.util.ResourceLoader -- reading resource from location : config/default.properties
+31467 [main] INFO  com.zna.util.Config -- Test Properties
+31468 [main] INFO  com.zna.util.Config -- selenium.grid.urlFormat=http://%s:4444/
+31468 [main] INFO  com.zna.util.Config -- browser=chrome
+31468 [main] INFO  com.zna.util.Config -- vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+31468 [main] INFO  com.zna.util.Config -- selenium.grid.enabled=true
+31468 [main] INFO  com.zna.util.Config -- flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+31468 [main] INFO  com.zna.util.Config -- selenium.grid.hubHost=localhost
+31476 [TestNG-tests-2] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+31476 [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+31736 [TestNG-tests-2] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/mike.json
+31757 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/sam.json
+35024 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 8
+36631 [TestNG-tests-1] INFO  com.zna.tests.AbstractTest -- grid url: http://localhost:4444/
+36881 [TestNG-tests-1] INFO  com.zna.util.ResourceLoader -- reading resource from location : test-data/vendor-portal/john.json
+37066 [TestNG-tests-2] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 10
+39596 [TestNG-tests-1] INFO  c.z.p.vendorportal.DashBoardPage -- Results count : 0

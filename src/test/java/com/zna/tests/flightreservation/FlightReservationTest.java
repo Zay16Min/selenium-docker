@@ -12,6 +12,8 @@ import com.zna.pages.flightreservation.RegistrationConfirmationPage;
 import com.zna.pages.flightreservation.RegistrationPage;
 import com.zna.tests.AbstractTest;
 import com.zna.tests.flightreservation.model.FlightReservationTestData;
+import com.zna.util.Config;
+import com.zna.util.Constants;
 import com.zna.util.JsonUtil;
 
 
@@ -28,7 +30,7 @@ class FlightReservationTest extends AbstractTest{
 	@Test
 	public void userRegistrationTest() {
 		RegistrationPage registrationPage = new RegistrationPage(driver);
-		registrationPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html");
+		registrationPage.goTo(Config.get(Constants.FLIGHT_RESERVATION_URL));
 		
 		registrationPage.enterUserDetails(testData.firstName(), testData.lastName());
 		registrationPage.enterUserCrendentials(testData.email(), testData.password());

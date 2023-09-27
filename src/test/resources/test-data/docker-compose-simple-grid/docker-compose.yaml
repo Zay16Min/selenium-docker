@@ -4,55 +4,30 @@ services:
     image: seleniarm/hub:latest
     container_name: selenium-hub
     ports:
+      - "4444:4444"
       - "4442:4442"
       - "4443:4443"
-      - "4444:4444"
   chrome:
     image: seleniarm/node-chromium:latest
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    deploy:
-      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
-      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443    
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443 
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+      - SE_NODE_MAX_SESSIONS=4
+      #- SE_VNC_NO_PASSWORD=1
   firefox:
     image: seleniarm/node-firefox:latest
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    deploy:
-      replicas: 0
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-#version: "3"
-#services:
-#  hub:
-#    image: seleniarm/hub
-#    ports:
-#    - 4444:4444
-#  chrome:
-#    image: seleniarm/node-chromium
-#    shm_size: '2g'
-#    depends_on:
-#    - hub
-#    environment:
-#    - SE_EVENT_BUS_HOST=hub
-#    - SE_EVENT_BUS_PUBLISH_PORT=4442
-#    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
-#  firefox:
-#    image: seleniarm/node-firefox
-#    shm_size: '2g'
-#    depends_on:
-#    - hub
-#    environment:
-#    - SE_EVENT_BUS_HOST=hub
-#    - SE_EVENT_BUS_PUBLISH_PORT=4442
-#    - SE_EVENT_BUS_SUBSCRIBER_PORT=4443
-#
-#$ docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-chromium:latest
-#$ docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-firefox:latest
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+      - SE_NODE_MAX_SESSIONS=4
+      #- SE_VNC_NO_PASSWORD=1
