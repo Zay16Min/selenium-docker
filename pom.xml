@@ -135,7 +135,7 @@
                 </executions>
             </plugin>
             <!-- To copy resources into the output directory -->
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>${maven.resources.plugin}</version>
@@ -152,17 +152,17 @@
                                 <resource>
                                     <directory>src/test/resources</directory>
                                 </resource>
-                                < <resource>
+                                <!--<resource>
                                     <directory>.</directory>
                                     <includes>
 										<include>dummy.txt</include>
 									</includes>
-                                </resource> -
+                                </resource> -->
                             </resources>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 </project>
