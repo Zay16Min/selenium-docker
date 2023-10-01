@@ -13,5 +13,6 @@ ADD runner.sh					runner.sh
 # Start the runner.sh
 ENTRYPOINT sh runner.sh
 
+
 #mvn clean test -DskipTests
 #docker build -t=znidocker/selenium .
