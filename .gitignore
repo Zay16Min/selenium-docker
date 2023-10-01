@@ -6,3 +6,4 @@ test-output/
 .DS_Store
 .settings/
 result/
+test-data/
