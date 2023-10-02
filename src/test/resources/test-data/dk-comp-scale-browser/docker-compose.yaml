@@ -1,19 +1,19 @@
 version: "3"
 services:
   vendor-portal:
-    image: zadocker/selenium
+    image: zndocker/selenium
     environment:
     - BROWSER=${BROWSER}
-    - HUB_HOST=hub
+    - HUB_HOST=my-test-hub
     - THREAD_COUNT=3
     - TEST_SUITE=vendor-portal.xml
     volumes:
     - ./output/vendor-portal:/home/selenium-docker/test-output 
   flight-reservation:
-    image: zadocker/selenium
+    image: zndocker/selenium
     environment:
     - BROWSER=${BROWSER}
-    - HUB_HOST=hub
+    - HUB_HOST=my-test-hub
     - THREAD_COUNT=4
     - TEST_SUITE=flight-reservation.xml
     volumes:

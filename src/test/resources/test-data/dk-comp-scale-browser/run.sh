@@ -13,3 +13,5 @@ BROWSER=firefox docker-compose up
 # bring down all
 docker-compose -f grid.yaml down
 docker-compose down
+
+#second run by 'sh run.sh'
