@@ -9,13 +9,26 @@ pipeline {
         }
         stage('Build Image'){
             steps{
-                sh "docker build -t=zarniaung7/selenium ."
+                sh "docker build -t=zarniaung7/selenium:latest ."
             }
         }
         stage('Push Image'){
+        	environment {
+        		DOCKER_HUB = credentials('dockerhub-creds');
+        		
+        	}
             steps{
-                sh "docker push zarniaung7/selenium"
+            	sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                sh "docker push zarniaung7/selenium:latest"
+                sh "docker tag zarniaung7/selenium:latest zarniaung7/selenium:${env.BUILD_NUMBER}"
+                sh "docker push zarniaung7/selenium:${env.BUILD_NUMBER}"
             }
         }
+    }
+    
+    post {
+    	always {
+    		sh "docker logout"
+    	}
     }
 }
