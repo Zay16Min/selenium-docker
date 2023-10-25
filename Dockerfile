@@ -14,4 +14,4 @@ ADD runner.sh                   runner.sh
 ENTRYPOINT sh runner.sh
 
 # maven clean before docker build 'mvn clean package -DskipTests'
-# firstly create docker image by 'docker build -t=zndocker/selenium .'
+# firstly create docker image by 'docker build -t=zarniaung7/selenium .'
